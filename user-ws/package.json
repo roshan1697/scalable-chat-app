@@ -1,0 +1,24 @@
+{
+  "name": "user-ws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.0.4",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4"
+  }
+}
